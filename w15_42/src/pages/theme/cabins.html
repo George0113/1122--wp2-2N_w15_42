@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Wild Oasis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="wild-oasis">
+      <div
+        class="antialiased bg-primary-950 text-primary-100 min-h-screen flex flex-col relative"
+      >
+        <header class="border-b border-primary-900 px-8 py-5">
+          <div class="flex justify-between items-center max-w-7xl mx-auto">
+            <a class="flex items-center gap-4 z-10" href="/"
+              ><img
+                width="60px"
+                height="40px"
+                src="./image/logo-light.png"
+              /><span>The Wild Oasis</span></a
+            >
+            <nav class="z-10 text-xl">
+              <ul class="flex gap-16 items-center">
+                <li>
+                  <a
+                    class="hover:text-accent-400 transition-colors"
+                    href="/cabins"
+                    >Cabins</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-accent-400 transition-colors"
+                    href="/about"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="hover:text-accent-400 transition-colors"
+                    href="/contact"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="flex-1 px-8 py-12 grid">
+          <main class="max-w-7xl mx-auto w-full">
+            <div>
+              <h1 class="text-4xl mb-5 text-accent-400 font-medium">
+                Our Luxury Cabins
+              </h1>
+              <p class="text-primary-200 text-lg mb-10">
+                Cozy yet luxurious cabins, located right in the heart of the
+                Italian Dolomites. Imagine waking up to beautiful mountain
+                views, spending your days exploring the dark forests around, or
+                just relaxing in your private hot tub under the stars. Enjoy
+                nature's beauty in your own little home away from home. The
+                perfect spot for a peaceful, calm vacation. Welcome to paradise.
+              </p>
+              <div
+                class="grid sm:grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 xl:gap-14"
+              >
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-001.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">2</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$<!-- -->250</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/1"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-002.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                        <!-- -->002
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">2</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]"></span
+                        ><span
+                          class="line-through font-semibold text-primary-600"
+                          >$350</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/2"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-003.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">4</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$300</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/3"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-004.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">4</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$450</span
+                        ><span
+                          class="line-through font-semibold text-primary-600"
+                          >$500</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/4"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-005.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">6</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$350</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/5"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-006.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">6</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$700</span
+                        ><span
+                          class="line-through font-semibold text-primary-600"
+                          >$800</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/6"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-007.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">8</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$<!-- -->500</span
+                        ><span
+                          class="line-through font-semibold text-primary-600"
+                          >$600</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/7"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="flex border-primary-800 border">
+                  <div class="flex-1 relative">
+                    <img
+                      src="./image/cabin-008.jpg"
+                      class="h-full w-fill object-cover"
+                    />
+                  </div>
+                  <div class="flex-grow">
+                    <div class="pt-5 pb-4 px-7 bg-primary-950">
+                      <h3 class="text-accent-500 font-semibold text-2xl mb-3">
+                        Cabin
+                        <!-- -->008
+                      </h3>
+                      <div class="flex gap-3 items-center mb-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          aria-hidden="true"
+                          data-slot="icon"
+                          class="h-5 w-5 text-primary-600"
+                        >
+                          <path
+                            d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z"
+                          ></path>
+                        </svg>
+                        <p class="text-lg text-primary-200">
+                          For up to <span class="font-bold">10</span> guests
+                        </p>
+                      </div>
+                      <p class="flex gap-3 justify-end items-baseline">
+                        <span class="text-3xl font-[350]">$1400</span
+                        ><span class="text-primary-200">/ night</span>
+                      </p>
+                    </div>
+                    <div
+                      class="bg-primary-950 border-t border-t-primary-800 text-right"
+                    >
+                      <a
+                        class="border-l border-primary-800 py-4 px-6 inline-block hover:bg-accent-600 transition-all hover:text-primary-900"
+                        href="/cabins/8"
+                        >Details &amp; reservation →</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -6,6 +6,7 @@ import { Toaster } from 'react-hot-toast';
 import AppLayout from './ui/AppLayout';
 import LandingStatic_42 from './pages/theme/LandingStatic_42';
 import Landing_42 from './pages/theme/Landing_42';
+import ProtectedRoute from './ui/ProtectedRoute';
 
 import GlobalStyles from './styles/GlobalStyles';
 
@@ -43,7 +44,10 @@ const router = createBrowserRouter([
   },
   {
     path: '/',
-    element: <AppLayout />,
+    element:(<ProtectedRoute>
+        <AppLayout />
+    </ProtectedRoute>
+    ) ,
     children: [
       {
         index: true,

@@ -1,0 +1,106 @@
+{
+  "hash": "25df2ebf",
+  "configHash": "1c3480c9",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "033d3cba",
+  "optimized": {
+    "@supabase/supabase-js": {
+      "src": "../../node_modules/@supabase/supabase-js/dist/module/index.js",
+      "file": "@supabase_supabase-js.js",
+      "fileHash": "7be4cd16",
+      "needsInterop": false
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "b2535539",
+      "needsInterop": false
+    },
+    "@tanstack/react-query-devtools": {
+      "src": "../../node_modules/@tanstack/react-query-devtools/build/modern/index.js",
+      "file": "@tanstack_react-query-devtools.js",
+      "fileHash": "f2feb627",
+      "needsInterop": false
+    },
+    "date-fns": {
+      "src": "../../node_modules/date-fns/esm/index.js",
+      "file": "date-fns.js",
+      "fileHash": "f5985801",
+      "needsInterop": false
+    },
+    "date-fns/esm": {
+      "src": "../../node_modules/date-fns/esm/index.js",
+      "file": "date-fns_esm.js",
+      "fileHash": "9b341c8a",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "b5757b83",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2e850c47",
+      "needsInterop": true
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "0d983d4b",
+      "needsInterop": false
+    },
+    "react-icons/hi2": {
+      "src": "../../node_modules/react-icons/hi2/index.mjs",
+      "file": "react-icons_hi2.js",
+      "fileHash": "f94d87ed",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "b9b42e94",
+      "needsInterop": false
+    },
+    "styled-components": {
+      "src": "../../node_modules/styled-components/dist/styled-components.browser.esm.js",
+      "file": "styled-components.js",
+      "fileHash": "1574f877",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-C5PIYSMO": {
+      "file": "browser-C5PIYSMO.js"
+    },
+    "browser-2YKBWFPX": {
+      "file": "browser-2YKBWFPX.js"
+    },
+    "WIIHGP5G-UUZMV5A6": {
+      "file": "WIIHGP5G-UUZMV5A6.js"
+    },
+    "chunk-XCDHS5NV": {
+      "file": "chunk-XCDHS5NV.js"
+    },
+    "chunk-ONIZUJVZ": {
+      "file": "chunk-ONIZUJVZ.js"
+    },
+    "chunk-23WS2YNJ": {
+      "file": "chunk-23WS2YNJ.js"
+    },
+    "chunk-C5JVPHGE": {
+      "file": "chunk-C5JVPHGE.js"
+    },
+    "chunk-5COPHYIQ": {
+      "file": "chunk-5COPHYIQ.js"
+    },
+    "chunk-PDHVD4HT": {
+      "file": "chunk-PDHVD4HT.js"
+    },
+    "chunk-3SPBDNLE": {
+      "file": "chunk-3SPBDNLE.js"
+    }
+  }
+}

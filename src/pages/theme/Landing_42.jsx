@@ -20,6 +20,14 @@ function Landing_42() {
                   <li>
                     <Link
                       className='hover:text-accent-400 transition-colors'
+                      to='/home'
+                    >
+                      Home_42
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className='hover:text-accent-400 transition-colors'
                       to='/cabins'
                     >
                       Cabins
